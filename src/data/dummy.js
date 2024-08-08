@@ -639,7 +639,6 @@ export const earningData = [
     title: 'Sales',
     iconColor: 'rgb(228, 106, 118)',
     iconBg: 'rgb(255, 244, 229)',
-
     pcColor: 'green-600',
   },
   {
@@ -679,7 +678,6 @@ export const recentTransactions = [
     desc: 'Money reversed',
     iconColor: 'rgb(255, 244, 229)',
     iconBg: 'rgb(254, 201, 15)',
-
     pcColor: 'green-600',
   },
   {
@@ -687,7 +685,6 @@ export const recentTransactions = [
     amount: '+$350',
     title: 'Bank Transfer',
     desc: 'Money Added',
-
     iconColor: 'rgb(228, 106, 118)',
     iconBg: 'rgb(255, 244, 229)',
     pcColor: 'green-600',

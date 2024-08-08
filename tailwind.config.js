@@ -40,7 +40,7 @@ module.exports = {
             },
             backgroundImage: {
                 'hero-pattern':
-                    "url('https://i.ibb.co/MkvLDfb/Rectangle-4389.png')",
+                    "url('https://freedesignfile.com/upload/2018/12/Operation-computer-office-business-men-vector.jpg')",
             },
         },
     },
