@@ -24,7 +24,7 @@ const StackedChart = ({ width, height }) => {
   }));
 
   return (
-    <div className='m-4 md:m-10 mt-24 p-10 bg-white dark:bg-secondary-dark-bg rounded-3xl'>
+    <div className='m-4 md:m-10 mt-24 p-10 bg-white rounded-3xl'>
       <Header
         category='Chart'
         title='Temperature Variation'
@@ -38,8 +38,7 @@ const StackedChart = ({ width, height }) => {
           primaryYAxis={ColorMappingPrimaryYAxis}
           chartArea={{ border: { width: 0 } }}
           tooltip={{ enable: true }}
-          background={currentMode === 'Dark' ? '#33373E' : '#fff'}
-          legendSettings={{ background: 'white' }}
+          background={currentMode === 'Dark' ? '#fff' : ''}
         >
           <Inject services={[Legend, Category, StackingColumnSeries, Tooltip]} />
           <SeriesCollectionDirective>

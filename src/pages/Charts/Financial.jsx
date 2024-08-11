@@ -18,7 +18,7 @@ const Financial = () => {
   const { currentMode } = useStateContext();
 
   return (
-    <div className="m-4 md:m-10 mt-24 p-10 bg-white dark:bg-secondary-dark-bg rounded-3xl">
+    <div className="m-4 md:m-10 mt-24 p-10 bg-white rounded-3xl">
       <ChartsHeader category="Financial" title="Store Historical" />
       <div className="w-full">
         <ChartComponent
@@ -28,7 +28,7 @@ const Financial = () => {
           chartArea={{ border: { width: 0 } }}
           tooltip={{ enable: true, shared: true }}
           crosshair={{ enable: true, lineType: 'Vertical', line: { width: 0 } }}
-          background={currentMode === 'Dark' ? '#33373E' : '#fff'}
+          background={currentMode === 'Dark' ? '#fff' : ''}
         >
           <Inject services={[HiloSeries, Tooltip, DateTime, Logarithmic, Crosshair, Zoom]} />
           <SeriesCollectionDirective>

@@ -12,7 +12,7 @@ const Ecommerce = () => {
   return (
     <div className='mt-12'>
       <div className='flex flex-wrap lg:flex-nowrap justify-center'>
-        <div className='bg-white dark:text-gray-200 dark:bg-secondary-dark-bg bg-hero-pattern h-44 rounded-xl w-full lg:w-80 p-8 pt-9 m-3 bg-no-repeat bg-cover bg-center'>
+        <div className='bg-white h-44 rounded-xl w-full lg:w-80 p-8 pt-9 m-3'>
           <div className='flex justify-between items-center'>
             <div>
               <p className='font-bold text-gray-400'>Earnings</p>
@@ -34,7 +34,7 @@ const Ecommerce = () => {
           {earningData.map((item) => (
             <div
               key={item.title}
-              className='bg-white dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56 p-4 pt-9 rounded-2xl'
+              className='bg-white md:w-56 p-4 pt-9 rounded-2xl'
             >
               <button type='button'
                 style={{ color: item.iconColor, backgroundColor: item.iconBg }}
@@ -56,7 +56,7 @@ const Ecommerce = () => {
         </div>
       </div>
       <div className='flex gap-10 flex-wrap justify-center'>
-        <div className='bg-white dark:text-gray-200 dark:bg-secondary-dark-bg m-3 p-4 rounded-2xl md:w-780'>
+        <div className='bg-white m-3 p-4 rounded-2xl md:w-780'>
           <div className='flex justify-between'>
             <p className='font-semibold text-xl'>Revenue Updates</p>
             <div className='flex items-center gap-4'>

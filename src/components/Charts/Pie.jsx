@@ -10,8 +10,8 @@ const PieChart = () => {
     <div className='w-full'>
       <AccumulationChartComponent
         id='pie-chart'
-        legendSettings={{ position: 'Bottom', background: 'white' }}
-        background={currentMode === 'Dark' ? '#33373E' : '#fff'}
+        legendSettings={{ position: 'Bottom' }}
+        background={currentMode === 'Dark' ? '#fff' : ''}
         tooltip={{ enable: true }}
         chartArea={{ border: { width: 0 } }}
       >
